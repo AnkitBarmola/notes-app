@@ -1,16 +1,15 @@
-# React + Vite
+## StickyNotes React
+A minimalist, high-contrast notes application built with React and Tailwind CSS. This app features a split-pane layout with a dark-themed input form and a visual "sticky note" gallery for your saved thoughts.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Preview-
+  ![Project Preview](./image.png)
+## 🚀 Features
+Dual-Pane Interface: Easy entry on the left, instant preview on the right.
 
-Currently, two official plugins are available:
+Sticky Note UI: Notes are rendered as realistic yellow sticky notes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Responsive Layout: Uses Tailwind's lg:flex to switch between stacked (mobile) and side-by-side (desktop) views.
 
-## React Compiler
+State Management: Real-time note addition and deletion using React useState.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Scrollable Gallery: The notes section remains organized even with dozens of entries.
